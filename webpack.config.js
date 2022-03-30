@@ -48,4 +48,9 @@ module.exports = {
 			filename: '[name].css'
 		}),
 	],
+	devserver:{
+		contentBase: path.join(__dirname, 'dist'),
+		compress: true,
+		port: 3005,
+	}
 }
